@@ -1,0 +1,1 @@
+Bu veri dosyaya write() ile yazıldı
