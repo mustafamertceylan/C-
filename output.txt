@@ -1,0 +1,10 @@
+Artık stdout dosyaya yönlendirildi!
+(Bu mesaj EKRANA değil, DOSYAYA yazılacak!)
+
+=== BU SATIRLAR output.txt DOSYASINA YAZILACAK ===
+dup2() ile stdout başarıyla yönlendirildi.
+Artık ekranda görmüyorsunuz, ama dosyada var!
+=================================================
+Dosya tanımlayıcısı kapatıldı, ancak stdout hala dosyayı gösteriyor.
+
+--- dup2(saved_stdout, 1) ile stdout geri yükleniyor... ---
